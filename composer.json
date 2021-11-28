@@ -1,0 +1,25 @@
+{
+    "name": "unlobosolitario/mengajukan",
+    "description": "A laravel package for File Management",
+    "type": "package",
+    "authors": [
+        {
+            "name": "unlobosolitario",
+            "email": "unlobosolitario@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "unlobosolitario\\mengajukan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "unlobosolitario\\mengajukan\\MengajukanServiceProvider"
+            ]
+        }
+    }
+}
